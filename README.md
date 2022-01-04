@@ -13,6 +13,8 @@ As a user, I should be able to…
 -Add a new restaurant to the list.
 -Remove a restaurant from the list.
 -View a list of every restaurant.
+<img width="861" alt="project3wireframe" src="https://user-images.githubusercontent.com/91583383/148131750-eb543ee6-46da-410c-a7ac-57470f412145.png">
+
 
 ## Available Scripts
 
