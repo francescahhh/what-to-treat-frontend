@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+## What to TrEAT?
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,7 +13,6 @@ As a user, I should be able to…
 -Add a new restaurant to the list.
 -Remove a restaurant from the list.
 -View a list of every restaurant.
-
 
 ## Available Scripts
 
