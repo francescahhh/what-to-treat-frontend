@@ -2,18 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Project Pitch:
+**Project Pitch:**
 Our web application, What to TrEAT?, aims to solve the age-old question “Where do you want to eat?” Our application displays a piñata on the page. When the piñata is clicked, four candies will appear on the page, each containing a restaurant suggestion pulled from the database built out in Active Record. With each restaurant suggestion, the name and the category of the restaurant (American, Asian fusion, Mexican inspired, etc.) will be displayed but the user name of who submitted that choice will be hidden. From the four randomized restaurants provided, the application will allow you to eliminate the restaurants you don’t want. The application will also allow you to click the piñata again to get a new selection of four randomized restaurant choices. This application will also include an input field where the user can input their own restaurant choice and add it to the database.
 
-User Stories:
+**User Stories:**
 As a user, I should be able to…
--Click on the piñata and have 4 random restaurants generated to choose from.
--Remove the unwanted choices from the random selection.
--Generate a new list of choices.
--Add a new restaurant to the list.
--Remove a restaurant from the list.
--View a list of every restaurant.
-<img width="861" alt="project3wireframe" src="https://user-images.githubusercontent.com/91583383/148131750-eb543ee6-46da-410c-a7ac-57470f412145.png">
+
+  -Click on the piñata and have 4 random restaurants generated to choose from.
+  
+  -Remove the unwanted choices from the random selection.
+  
+  -Generate a new list of choices.
+  
+  -Add a new restaurant to the list.
+  
+  -Remove a restaurant from the list.
+  
+  -View a list of every restaurant.
+
+<img width="430" alt="project3wireframe" src="https://user-images.githubusercontent.com/91583383/148131750-eb543ee6-46da-410c-a7ac-57470f412145.png">
 
 
 ## Available Scripts
