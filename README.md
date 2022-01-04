@@ -14,6 +14,7 @@ As a user, I should be able to…
 -Remove a restaurant from the list.
 -View a list of every restaurant.
 
+
 ## Available Scripts
 
 In the project directory, you can run:
