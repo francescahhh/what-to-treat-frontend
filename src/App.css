@@ -1,26 +1,53 @@
 .App {
   text-align: center;
+  background: url('https://i.ibb.co/7Y2942S/Processed-with-VSCO-with-p8-preset.jpg')  repeat-x fixed;
+  background-size: 650px 500px;
+  overflow-y: scroll;
+  background-color: #fedec0;;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main-header {
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fedec0;
+  flex-direction: column;
+  align-items: center;
+  background-color: #102f45;
+  opacity: 0.87;
+  border-radius: 25px;
+  padding: 10px;
 }
 
+.Pinata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -50px;
+}
+
+#pinata-pic {
+  width: 65%;
+  height: 65%; 
+}
+
+.Candies {
+display: inline-block;
+}
+
+.Candy-piece {
+  width: 20%;
+  height: 20%;
+}
 
 .App-header {
-  background-image: url('https://i.ibb.co/7Y2942S/Processed-with-VSCO-with-p8-preset.jpg');
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +57,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Pinata animation */
+@keyframes swing-pinata { 
+  20% { transform: rotate(6deg); } 
+  40% { transform: rotate(-4deg); } 
+  60% { transform: rotate(6deg); } 
+  80% { transform: rotate(-4deg); } 
+  100% { transform: rotate(0deg); } 
+} 
+
+.Pinata {
+  animation: swing-pinata 15s infinite;
 }

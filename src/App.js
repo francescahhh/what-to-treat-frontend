@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import TitleHeader from "./components/titleHeader.js"
+import Pinata from "./components/pinata.js"
+import Candies from "./components/candyContainer.js"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-          What to Treat?
-        </h1>
-        <img src="https://i.ibb.co/6stRyCS/pinatacutout.png" className="App-logo" alt="pinata"/>
-      </header>
+      <TitleHeader />
+      <Pinata />
+       <Candies />
+        </header>
     </div>
   );
 }
