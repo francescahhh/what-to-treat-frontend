@@ -6,7 +6,10 @@
   background-color: #fedec0;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   letter-spacing: 2px;
+  color: #102f45;
 }
+
+
 
 .Main-header {
   justify-content: center;
@@ -25,6 +28,8 @@
   font-weight: 100;
 }
 
+
+
 .Pinata {
   display: flex;
   flex-direction: column;
@@ -40,6 +45,8 @@
   cursor: pointer;
 }
 
+
+
 .Candies {
 display: inline-block;
 margin-top: -70px;
@@ -50,6 +57,11 @@ margin-top: -70px;
   height: 20%;
 }
 
+
+.Submission-form {
+  padding: 50px;
+}
+
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -57,15 +69,6 @@ margin-top: -70px;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 
@@ -81,3 +84,4 @@ margin-top: -70px;
 .Pinata {
   animation: swing-pinata 10s infinite;
 }
+

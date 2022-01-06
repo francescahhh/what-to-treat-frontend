@@ -1,7 +1,9 @@
 import './App.css';
+import { useState } from'react';
 import TitleHeader from "./components/titleHeader.js"
 import Pinata from "./components/pinata.js"
 import Candies from "./components/candyContainer.js"
+import SubmissionForm from './components/submissionBox';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <TitleHeader />
       <Pinata />
        <Candies />
+       <SubmissionForm />
         </header>
     </div>
   );
