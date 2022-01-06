@@ -19,4 +19,4 @@ function SubmissionForm() {
 
 export default SubmissionForm
 
-//updated to handle multiple input fields with one submission button
+//updated to handle multiple input fields with one submission button---name of restaurant you're submitting, category of food, user name
