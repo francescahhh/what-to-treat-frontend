@@ -3,7 +3,7 @@ import React from "react"
 const Pinata = () => {
 return (
     <div className="Pinata">
-        <img id="pinata-pic" src="https://i.ibb.co/6stRyCS/pinatacutout.png" alt="pinata" />
+        <img id="pinata-pic" src= "https://res.cloudinary.com/dqms0calh/image/upload/v1641500320/project3/pinatacutout_n16r0g.png" alt="pinata" />
     </div>
 )
 }
