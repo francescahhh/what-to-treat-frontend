@@ -18,3 +18,5 @@ function SubmissionForm() {
 }
 
 export default SubmissionForm
+
+//updated to handle multiple input fields with one submission button

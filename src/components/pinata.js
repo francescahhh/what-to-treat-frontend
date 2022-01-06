@@ -9,3 +9,5 @@ return (
 }
 
 export default Pinata
+
+//needs event listener for click---should be hooked up to random data generator
