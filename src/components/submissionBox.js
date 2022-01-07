@@ -24,10 +24,11 @@ function SubmissionForm() {
 
     <input
         type="text"
-        value={category}
+        value={user}
         placeholder="User Name"
         onChange={(e) => setCategory(e.target.value)}
-      />
+    />
+
       <button type="submit" >Add Restaurant</button>
     </form>
   )
