@@ -21,6 +21,13 @@ function SubmissionForm() {
         placeholder="Category"
         onChange={(e) => setCategory(e.target.value)}
       />
+
+    <input
+        type="text"
+        value={category}
+        placeholder="User Name"
+        onChange={(e) => setCategory(e.target.value)}
+      />
       <button type="submit" >Add Restaurant</button>
     </form>
   )
