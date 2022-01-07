@@ -4,6 +4,7 @@ import { useState } from "react";
 function SubmissionForm() {
   const [name, setName] = useState("");
   const [category, setCategory] = useState("");
+  const [user, setUser] = useState("");
 
   return (
     <form className="Submission-form">
@@ -26,7 +27,7 @@ function SubmissionForm() {
         type="text"
         value={user}
         placeholder="User Name"
-        onChange={(e) => setCategory(e.target.value)}
+        onChange={(e) => setUser(e.target.value)}
     />
 
       <button type="submit" >Add Restaurant</button>
